@@ -54,9 +54,10 @@ jit_preprocess_files(
   SOURCE_DIRECTORY
   ${CMAKE_CURRENT_LIST_DIR}
   FILES
-  use_std.cu
   use_cuda_std.cu
+  use_cuda_std_and_std.cu
   use_global.cu
+  use_std.cu
 )
 
 add_custom_target(
